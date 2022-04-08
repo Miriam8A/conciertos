@@ -1,0 +1,39 @@
+@model conciertos.Models.Conciertos
+@{
+    ViewData["Title"] = "Conciertos";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <h1 class="display-4">Listar Próximos Conciertos 2022</h1>
+    <form asp-controller="Conciertos" asp-action="Create">
+
+        <div class="form-group row">
+            <label asp-for="artista" class="form-label">Nombre</label>
+            <input type="text" asp-for="artista" class="form-control" required/>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="fecha" class="form-label">Fecha</label>
+            <input type="text" asp-for="fecha" class="form-control" required/>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="precio" class="form-label">Precio (S/.)</label>
+            <input type="text" asp-for="precio" class="form-control" required/>
+        </div>
+
+        <div class="form-group row">
+            <button class="btn btn-primary">Listar Concierto</button>
+        </div>
+
+    </form>
+
+    <h1>@ViewData["Message"]</h1>
+
+    <p>
+        <a asp-action="Index">Volver a la lista</a>
+    </p>
+
+</div>

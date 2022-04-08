@@ -1,0 +1,45 @@
+@model IEnumerable<conciertos.Models.Conciertos>
+@{
+    ViewData["Title"] = "VideoGame";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create">Listar Concierto</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Fecha
+            </th>
+            <th>
+                Precio (S/.)
+            </th>
+            <th>
+                Eliminar
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precio)
+            </td>
+            <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.id" onclick="return confirm('¿Seguro que desea eliminar el concierto?')">Eliminar</a></td> 
+        </tr>
+}
+    </tbody>
+</table>
