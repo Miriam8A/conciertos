@@ -16,7 +16,7 @@ namespace conciertos.Data
             : base(options)
             {}
     
-    public DbSet<conciertos.Models.Conciertos> DataConciertos {get; set; }
+    public DbSet<conciertos.Models.Concierto> DataConciertos {get; set; }
 
     }
 }

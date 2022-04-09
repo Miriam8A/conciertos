@@ -1,4 +1,4 @@
-@model IEnumerable<conciertos.Models.Conciertos>
+@model IEnumerable<conciertos.Models.Concierto>
 @{
     ViewData["Title"] = "VideoGame";
 }
@@ -30,7 +30,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.nombre)
+                @Html.DisplayFor(modelItem => item.artista)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.fecha)

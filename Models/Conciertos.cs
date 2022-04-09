@@ -13,7 +13,7 @@ namespace conciertos.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id {get; set;}
         public string artista {get; set;}
-        public string fecha {get; set;}
+        public int fecha {get; set;}
         public decimal precio {get; set;}
        
     }
