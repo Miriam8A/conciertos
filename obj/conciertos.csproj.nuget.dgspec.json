@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\tareas de Arleth\\conciertos\\conciertos.csproj": {}
+    "E:\\tareas de Arleth\\conciertos\\conciertos.csproj": {}
   },
   "projects": {
-    "e:\\tareas de Arleth\\conciertos\\conciertos.csproj": {
+    "E:\\tareas de Arleth\\conciertos\\conciertos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\tareas de Arleth\\conciertos\\conciertos.csproj",
+        "projectUniqueName": "E:\\tareas de Arleth\\conciertos\\conciertos.csproj",
         "projectName": "conciertos",
-        "projectPath": "e:\\tareas de Arleth\\conciertos\\conciertos.csproj",
+        "projectPath": "E:\\tareas de Arleth\\conciertos\\conciertos.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "e:\\tareas de Arleth\\conciertos\\obj\\",
+        "outputPath": "E:\\tareas de Arleth\\conciertos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

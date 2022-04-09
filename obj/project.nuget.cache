@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q0egDUby68q4FjJtcuyGEKTrCt4DgOJq1DYXStyZ5XR8iRIKcmBtRF+LsETIaD33i9srh6lWvgRUMrCDPZWzMA==",
+  "dgSpecHash": "IxylRSHfZv6f910aD+SALEdJqiJcH4yNVQtf/Ys+JnQXfMclBDD3bbKGvvokkqWH5FaicQVv4tDXjZjNaDYWmg==",
   "success": true,
-  "projectFilePath": "e:\\tareas de Arleth\\conciertos\\conciertos.csproj",
+  "projectFilePath": "E:\\tareas de Arleth\\conciertos\\conciertos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
